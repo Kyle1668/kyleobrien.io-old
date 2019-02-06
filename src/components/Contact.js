@@ -23,7 +23,8 @@ class Contact extends React.Component {
 							</div>
 						</div>
 						<div className="row">
-							<div className="container">git 
+							<div className="container">
+								git
 								<div className="row">
 									<div className="col-md-8 offset-md-2">
 										<div className="paragraph">
