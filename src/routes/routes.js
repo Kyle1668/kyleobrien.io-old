@@ -1,9 +1,9 @@
-import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import App from '../components/App'
-import About from '../components/About'
-import Contact from '../components/Contact'
-import Articles from '../components/Articles'
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import App from '../components/App';
+import About from '../components/About';
+import Contact from '../components/Contact';
+import Articles from '../components/Articles';
 
 export default () => {
 	return (
@@ -15,5 +15,5 @@ export default () => {
 				<Route path="/contact" exact component={Contact} />
 			</Switch>
 		</BrowserRouter>
-	)
-}
+	);
+};

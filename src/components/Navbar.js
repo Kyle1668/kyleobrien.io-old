@@ -1,11 +1,11 @@
-import React from 'react'
-import SocialList from './SocialList'
-import '../stylesheets/css/Navbar.css'
-import resume from '../assets/kyle-obrien-resume.pdf'
+import React from 'react';
+import SocialList from './SocialList';
+import '../stylesheets/css/Navbar.css';
+import resume from '../assets/kyle-obrien-resume.pdf';
 
 class Navbar extends React.Component {
 	constructor(props) {
-		super(props)
+		super(props);
 		this.state = {
 			isFixed: this.props.isFixed,
 			navs: [
@@ -30,7 +30,7 @@ class Navbar extends React.Component {
 					path: 'contact'
 				}
 			]
-		}
+		};
 	}
 
 	getNavs() {
@@ -41,17 +41,21 @@ class Navbar extends React.Component {
 						{item.name}
 					</a>
 				</li>
-			)
-		})
+			);
+		});
 	}
 
 	isFixed() {
-		return this.state.isFixed ? 'fixed-top' : ''
+		return this.state.isFixed ? 'fixed-top' : '';
 	}
 
 	render() {
 		return (
-			<nav className={'navbar navbar-expand-lg navbar-dark bg-dark ' + this.isFixed()}>
+			<nav
+				className={
+					'navbar navbar-expand-lg navbar-dark bg-dark ' + this.isFixed()
+				}
+			>
 				<div className="container">
 					<SocialList />
 					<button
@@ -61,7 +65,8 @@ class Navbar extends React.Component {
 						data-target="#navbarResponsive"
 						aria-controls="navbarResponsive"
 						aria-expanded="false"
-						aria-label="Toggle navigation">
+						aria-label="Toggle navigation"
+					>
 						<span className="navbar-toggler-icon" />
 					</button>
 					<div className="collapse navbar-collapse" id="navbarResponsive">
@@ -69,8 +74,8 @@ class Navbar extends React.Component {
 					</div>
 				</div>
 			</nav>
-		)
+		);
 	}
 }
 
-export default Navbar
+export default Navbar;

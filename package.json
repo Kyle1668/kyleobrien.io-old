@@ -18,6 +18,10 @@
     "start": "set HTTPS=true&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "format": "./node_modules/.bin/prettier --write '**/*.{js,jsx}'",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
   }
 }
