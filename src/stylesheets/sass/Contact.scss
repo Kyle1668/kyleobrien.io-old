@@ -1,0 +1,55 @@
+.contact {
+    .jumbotron {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 15px;
+        position: absolute;
+    }
+    .jumbotron {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        a,
+        p,
+        .lead {
+            color: black !important;
+            text-transform: none;
+        }
+        p {
+            font-weight: normal;
+        }
+        img {
+            height: 120px;
+            width: 130px;
+            border-radius: 120%;
+            margin: 10px;
+        }
+        .body-heading {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card-title {
+            text-transform: none;
+            font-weight: lighter;
+        }
+        .paragraph {
+            margin-bottom: 25px;
+            line-height: 32px;
+            text-align: left;
+        }
+        .list-head {
+            color: white !important;
+        }
+        h5 {
+            //padding: 20px;
+            text-transform: none;
+            word-wrap: break-word;
+        }
+    }
+}

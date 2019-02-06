@@ -1,0 +1,40 @@
+.about .jumbotron {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 15px;
+  position: absolute;
+  background-color: white; }
+.about .jumbotron h1,
+.about .jumbotron h2,
+.about .jumbotron h3,
+.about .jumbotron h4,
+.about .jumbotron h5,
+.about .jumbotron a,
+.about .jumbotron p,
+.about .jumbotron .lead {
+  color: black !important; }
+.about .jumbotron p {
+  font-weight: 400;
+  letter-spacing: normal; }
+.about .jumbotron img {
+  height: 120px;
+  width: 130px;
+  border-radius: 120%;
+  margin: 10px; }
+.about .jumbotron .body-heading {
+  text-align: center;
+  margin-top: 40px; }
+.about .jumbotron .card {
+  margin-bottom: 20px; }
+.about .jumbotron .card-title {
+  text-transform: none;
+  font-weight: lighter; }
+.about .jumbotron .paragraph-container {
+  margin-bottom: 80px; }
+.about .jumbotron .paragraph {
+  margin-bottom: 25px;
+  line-height: 32px;
+  text-align: left; }
+
+/*# sourceMappingURL=About.css.map */

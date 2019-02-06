@@ -1,0 +1,42 @@
+.contact .jumbotron {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 15px;
+  position: absolute; }
+.contact .jumbotron h1,
+.contact .jumbotron h2,
+.contact .jumbotron h3,
+.contact .jumbotron h4,
+.contact .jumbotron h5,
+.contact .jumbotron a,
+.contact .jumbotron p,
+.contact .jumbotron .lead {
+  color: black !important;
+  text-transform: none; }
+.contact .jumbotron p {
+  font-weight: normal; }
+.contact .jumbotron img {
+  height: 120px;
+  width: 130px;
+  border-radius: 120%;
+  margin: 10px; }
+.contact .jumbotron .body-heading {
+  text-align: center;
+  margin-top: 40px; }
+.contact .jumbotron .card {
+  margin-bottom: 20px; }
+.contact .jumbotron .card-title {
+  text-transform: none;
+  font-weight: lighter; }
+.contact .jumbotron .paragraph {
+  margin-bottom: 25px;
+  line-height: 32px;
+  text-align: left; }
+.contact .jumbotron .list-head {
+  color: white !important; }
+.contact .jumbotron h5 {
+  text-transform: none;
+  word-wrap: break-word; }
+
+/*# sourceMappingURL=Contact.css.map */

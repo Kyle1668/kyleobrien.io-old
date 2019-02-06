@@ -1,0 +1,11 @@
+.article-card {
+  margin-top: 40px; }
+
+.article-card img {
+  border-radius: 0% !important;
+  width: 100%;
+  align-self: center;
+  margin-left: 25%;
+  margin-right: 25%; }
+
+/*# sourceMappingURL=ArticleCard.css.map */

@@ -1,0 +1,51 @@
+.about {
+    .jumbotron {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 15px;
+        position: absolute;
+        background-color: white;
+    }
+    .jumbotron {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        a,
+        p,
+        .lead {
+            color: black !important;
+        }
+        p {
+            font-weight: 400;
+            letter-spacing: normal;
+        }
+        img {
+            height: 120px;
+            width: 130px;
+            border-radius: 120%;
+            margin: 10px;
+        }
+        .body-heading {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .card-title {
+            text-transform: none;
+            font-weight: lighter;
+        }
+        .paragraph-container {
+            margin-bottom: 80px;
+        }
+        .paragraph {
+            margin-bottom: 25px;
+            line-height: 32px;
+            text-align: left;
+        }
+    }
+}
