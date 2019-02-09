@@ -21,7 +21,8 @@
     "format": "./node_modules/.bin/prettier --write '**/*.{js,jsx}'",
     "lint": "./node_modules/.bin/eslint '**/*.{js,jsx}' --quiet",
     "eject": "react-scripts eject",
-    "prod-docker": "docker build -t kyleobrien.io ."
+    "prod-docker": "docker build -t kyleobrien.io . && docker run -p 3000:3000 --name portfilio_instance kyleobrien.io",
+    "dev-docker": "docker build -t kyleobrien.io . && docker run -v ./:/portfolio/ -p 3000:3000 --name portfilio_instance kyleobrien.io"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
