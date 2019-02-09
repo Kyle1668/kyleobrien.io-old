@@ -1,63 +1,15 @@
 import React from 'react';
 import Navbar from './Navbar';
 import ArticleCard from './ArticleCard';
+import articles from '../data/articles.json';
 
 class Articles extends React.Component {
 	constructor() {
 		super();
-		this.state = {
-			articles: [
-				{
-					title: 'Build a Movie Data API With Python: Part 1',
-					description:
-						'Part 1 in a tutorial series on how to build a movie data API with Flask, Postgre' +
-						's, and Docker.',
-					date_written: 'Aug 4, 2018  ',
-					url:
-						'https://medium.com/@kyleobrien1668/build-a-movie-data-api-with-python-part-1-439' +
-						'6bd72845',
-					image:
-						'https://cdn-images-1.medium.com/max/1600/1*mOhEA3sO1Y2X_ldrtmw2NA.png'
-				},
-				{
-					title: 'Generic Functions: C++ Templates',
-					description:
-						'A brief overview on the syntax of C++ template functions.',
-					date_written: 'Mar 31, 2017',
-					url:
-						'https://medium.com/@kyleobrien1668/generic-functions-c-templates-8d2c084212d8',
-					image:
-						'https://cdn-images-1.medium.com/max/1600/1*FGw70I8yl5ETMvjvqnCCqQ.png'
-				}
-			]
-		};
+		this.setState({
+			articles: articles.records
+		});
 	}
-
-	getArticles = () => {
-		const backendPort = process.env.BACKENDPORT || 4000;
-		const backendHost = process.env.BACKENDHOST || 'localhost';
-		const url = `http://${'localhost'}:${backendPort}/api/articles`;
-		console.log(url);
-
-		fetch(url, { mode: 'cors' })
-			.then(res => {
-				return res.json();
-			})
-			.then(jsonData => {
-				this.setState({ articles: jsonData.results });
-			})
-			.then(() => {
-				console.log(this.state.articles);
-			})
-			.catch(err => {
-				console.log('Error reaching articles API endpoint');
-				console.log(err);
-			});
-	};
-
-	componentDidMount = () => {
-		// this.getArticles()
-	};
 
 	renderArticles = () => {
 		if (this.state.articles.length > 0) {
