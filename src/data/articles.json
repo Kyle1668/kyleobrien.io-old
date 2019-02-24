@@ -1,18 +1,18 @@
 {
 	"records": [
 		{
-			"title": "My Experience Interviewing With Microsoft",
-			"description": "Part 1 in a tutorial series on how to build a movie data API with Flask, Postgres, and Docker.",
-			"date_written": "Aug 4, 2018  ",
+			"title": "Strategies for Succeeding at the Behavioral Interview",
+			"description": "Thoughts and advice on how to overcome self-doubt and enjoy the behavioral interview.",
+			"date_written": "Febuary 19, 2019  ",
 			"url": "https://medium.com/@kyleobrien1668/build-a-movie-data-api-with-python-part-1-4396bd72845",
 			"image": "https://cdn-images-1.medium.com/max/1600/1*mOhEA3sO1Y2X_ldrtmw2NA.png"
 		},
 		{
-			"title": "Generic Functions: C++ Templates",
-			"description": "A brief overview on the syntax of C++ template functions.",
-			"date_written": "Mar 31, 2017",
-			"url": "https://medium.com/@kyleobrien1668/generic-functions-c-templates-8d2c084212d8",
-			"image": "https://cdn-images-1.medium.com/max/1600/1*FGw70I8yl5ETMvjvqnCCqQ.png"
+			"title": "Strategies for Landing a Tech Internship",
+			"description": "Guide for students on how to get yoru first internship in the tech industry.",
+			"date_written": "December 22, 2018",
+			"url": "https://medium.com/students-corner/strategies-for-landing-a-tech-internship-57f9370f533c",
+			"image": "https://cdn-images-1.medium.com/max/1750/1*WzmAPybK4YoNf-du4nCFQA.jpeg"
 		}
 	]
 }

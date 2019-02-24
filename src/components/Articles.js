@@ -6,10 +6,13 @@ import articles from '../data/articles.json';
 class Articles extends React.Component {
 	constructor() {
 		super();
+	}
+
+	componentWillMount = () => {
 		this.setState({
 			articles: articles.records
 		});
-	}
+	};
 
 	renderArticles = () => {
 		if (this.state.articles.length > 0) {
