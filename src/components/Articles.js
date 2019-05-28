@@ -3,22 +3,20 @@ import Navbar from "./Navbar";
 import ArticleCard from "./ArticleCard";
 import articles from "../data/articles.json";
 
+const AppDataContextInstance = React.createContext();
+
 class Articles extends React.Component {
-  componentWillMount = () => {
-    this.setState({
-      articles: articles.records
-    });
-  };
+  //   componentWillMount = () => {
+  //     this.setState({
+  //       articles: articles.records
+  //     });
+  //   };
 
   renderArticles = () => {
-    if (this.state.articles.length > 0) {
-      return this.state.articles.map((article, key) => {
-        if (key + 1 <= 2) {
-          console.log(article);
-          console.log(key);
-          console.log(article.title);
-
-          return (
+    return (
+      <AppDataContextInstance.Consumer>
+        {context =>
+          context.articles.map((article, key) => (
             <ArticleCard
               title={article.title}
               description={article.description}
@@ -27,10 +25,10 @@ class Articles extends React.Component {
               image={article.image}
               key={key * 11}
             />
-          );
+          ))
         }
-      });
-    }
+      </AppDataContextInstance.Consumer>
+    );
   };
 
   render() {
