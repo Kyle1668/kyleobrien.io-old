@@ -1,18 +1,18 @@
 {
-	"records": [
-		{
-			"title": "Strategies for Succeeding at the Behavioral Interview",
-			"description": "Thoughts and advice on how to overcome self-doubt and enjoy the behavioral interview.",
-			"date_written": "Febuary 19, 2019  ",
-			"url": "https://medium.com/@kyleobrien1668/strategies-for-succeeding-at-the-behavioral-interview-4b074bc44a6f",
-			"image": "https://cdn-images-1.medium.com/max/1600/1*mOhEA3sO1Y2X_ldrtmw2NA.png"
-		},
-		{
-			"title": "Strategies for Landing a Tech Internship",
-			"description": "Guide for students on how to get your first internship in the tech industry.",
-			"date_written": "December 22, 2018",
-			"url": "https://medium.com/students-corner/strategies-for-landing-a-tech-internship-57f9370f533c",
-			"image": "https://cdn-images-1.medium.com/max/1750/1*WzmAPybK4YoNf-du4nCFQA.jpeg"
-		}
-	]
+    "records": [
+        {
+            "title": "Strategies for Succeeding at the Behavioral Interview",
+            "description": "Thoughts and advice on how to overcome self-doubt and enjoy the behavioral interview.",
+            "date_written": "Febuary 19, 2019  ",
+            "url": "https://medium.com/@kyleobrien1668/strategies-for-succeeding-at-the-behavioral-interview-4b074bc44a6f",
+            "image": "https://cdn-images-1.medium.com/max/1600/1*mOhEA3sO1Y2X_ldrtmw2NA.png"
+        },
+        {
+            "title": "Strategies for Landing a Tech Internship",
+            "description": "Guide for students on how to get your first internship in the tech industry.",
+            "date_written": "December 22, 2018",
+            "url": "https://medium.com/students-corner/strategies-for-landing-a-tech-internship-57f9370f533c",
+            "image": "https://cdn-images-1.medium.com/max/1750/1*WzmAPybK4YoNf-du4nCFQA.jpeg"
+        }
+    ]
 }

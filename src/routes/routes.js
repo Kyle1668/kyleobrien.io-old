@@ -6,14 +6,14 @@ import Contact from "../components/Contact";
 import Articles from "../components/Articles";
 
 export default () => {
-  return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={App} />
-        <Route path="/about" exact component={About} />
-        <Route path="/articles" exact component={Articles} />
-        <Route path="/contact" exact component={Contact} />
-      </Switch>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Route path="/" exact component={App} />
+                <Route path="/about" exact component={About} />
+                <Route path="/articles" exact component={Articles} />
+                <Route path="/contact" exact component={Contact} />
+            </Switch>
+        </BrowserRouter>
+    );
 };
