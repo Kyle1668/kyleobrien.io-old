@@ -23,5 +23,3 @@ COPY --from=builder /source/kyleobrien.io/build .
 
 ENV PORT = 80
 EXPOSE 80
-
-# RUN a2enmod rewrite
