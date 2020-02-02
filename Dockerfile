@@ -15,13 +15,13 @@ RUN apk add --no-cache --virtual .build-deps g++ python3-dev libffi-dev openssl-
 RUN npm install && \
     npm run build
 
-FROM php:rc-apache
+FROM nginx:1.17.8-alpine
 
-WORKDIR /var/www/html/
+WORKDIR /usr/share/nginx/html
 
-COPY --from=builder /source/kyleobrien.io .
+COPY --from=builder /source/kyleobrien.io/build .
 
 ENV PORT = 80
 EXPOSE 80
 
-RUN a2enmod rewrite
+# RUN a2enmod rewrite
